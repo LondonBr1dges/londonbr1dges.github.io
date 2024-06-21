@@ -1,0 +1,119 @@
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(242, 208, 169);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+  color: rgb(32, 126, 137);
+  transform: rotate(0deg);
+}
+
+body {
+  padding: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: rgb(229, 229, 229);
+}
+
+li {
+  line-height: 2em;
+}
+
+#skills {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+th {
+  padding: 15px;
+}
+
+#parentContainer {
+  display: flex;
+}
+
+#parentContainer div {
+  background-color: rgb(241, 227, 211);
+  border: 1px solid black;
+}
+
+#workBar {
+  flex: 1;
+  padding: 15px;
+}
+
+#skillsBar {
+  flex: 1;
+  padding: 15px;
+}
+
+#accomp {
+  display: flex;
+}
+
+#accomp div {
+  background-color: rgb(241, 227, 211);
+  border: 1px solid black;
+}
+
+#accompBar {
+  flex: 1;
+  padding: 15px;
+}
+
+#volContainer {
+  display: flex;
+}
+
+#volContainer div {
+  background-color: rgb(241, 227, 211);
+  border: 1px solid black;
+}
+
+#volBar {
+  flex: 1;
+  padding: 15px;
+}
+
+.class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  border: 1px solid black;
+
+}
+
+@media (width <=600px) {
+  #parentContainer {
+    flex-direction: column;
+  }
+}
+
+#footer {
+  text-align: center;
+  bottom: 0;
+  background-color: rgb(203, 247, 237);
+  width: 100%;
+
+}
